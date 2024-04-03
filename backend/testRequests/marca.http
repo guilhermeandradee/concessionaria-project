@@ -1,0 +1,25 @@
+GET http://localhost:8000/marcas
+
+###
+
+POST http://localhost:8000/marcas
+Content-Type: application/json
+
+{
+    "nome":"Volks",
+    "imagem":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Fiat_logo.svg/2560px-Fiat_logo.svg.png"
+}
+
+# {
+#     "nome":"Volkswaguen",
+#     "imagem":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/600px-Volkswagen_logo_2019.svg.png"
+# }
+
+###
+
+DELETE http://localhost:8000/marcas
+Content-Type: application/json
+
+{
+    "id":"10"
+}

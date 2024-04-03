@@ -1,0 +1,81 @@
+.marcas-oficiais-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+
+    padding: 2% 6%;
+}
+
+.marcas-oficiais-container > h1 {
+    font-size: 1.2em;
+    font-weight: 400;
+
+    color: #fff;
+}
+
+.row-marcas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 2%;
+    
+    width: 100%;
+    height: 180px;
+
+    padding: 0 24px;
+
+    /* background-color: blue; */
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    border-radius: 50%;
+
+    width: 120px;
+    height: 120px;
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+.img-container:hover {
+    /* width: 123px;
+    height: 123px; */
+
+    background-color: #ffffff44;
+}
+
+.img-da-marca {
+    /* width: 80px; */
+    width: 50%;
+    size: cover;
+}
+
+@media (max-width: 930px) {
+    .img-container {
+        width: 90px;
+        height: 50%;
+    
+  }
+}
+@media (max-width: 720px) {
+    .img-container {
+        width: 70px;
+        height: 40%;
+
+  }
+}
+@media (max-width: 425px) {
+    .img-container {
+        width: 10vh;
+        height: 10vh;
+    }
+}

@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap');
+
+.cars-category-container-master {
+    width: 100%;
+
+    background-color: #292929;
+
+    width: 100%;
+    height: 100%;
+}
+
+.cars-category-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    margin: 2% 0 4% 0;
+   
+}
+
+.title-container > h1 {
+    width: 20%;
+    text-align: center;
+    font-size: 2.5vw;
+
+    padding: 0 0 1vw 0;
+
+    font-weight: 300;
+    font-family: 'Poppins';
+
+    border-bottom: 1px solid #fff;
+}
+
+main.car-options-container {
+    display: flex;
+
+    width: 95%;
+    height: 100%;
+
+    padding: 1% 4%;
+
+    background-color: #333;
+    border-radius: 10px;
+}
+
+ul.car-grid-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    list-style: none;
+    
+    width: 100%;
+    height: 100%;
+
+
+    border-bottom: 1px solid #757575;
+
+    /* position: relative; */
+}
+
+
+
+.car-grid-options > li {
+
+    padding: 10px;
+
+    color: #333;
+    background-color: #fff;
+
+    border-radius: 10px;
+
+    width: 30%;
+    max-height: 68vh;
+
+    margin: 4% 0;
+
+    transition: .3s;
+    cursor: pointer;
+}
+/* .car-grid-options li:hover {
+    border: 1px solid red;
+    background-color: transparent;
+    color: #fff;
+    width: 33%;
+    margin: 2% 0;
+} */
+.car-grid-options li:hover {
+    border: 1px solid red;
+    background-color: transparent;
+    color: #fff;
+    width: 33%;
+    max-height: 67.8vh;
+}
+
+
+
+
+.car-grid-options-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: red; */
+    width: 100%;
+    height: 200px;
+
+    border-radius: 5px;
+
+    /* background-image: url(https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=600); */
+
+    background-size: cover;
+    background-position: center center;;
+}
+.car-image {
+    width: 50%;
+
+    border-radius: 10px;
+}
+
+.car-grid-options-bottom {
+    padding: 4% 5% calc(5% - 10px) 5%;
+}
+
+.car-grid-options-bottom > h1 {
+    font-size: 2vw;
+}
+
+.car-grid-options-bottom > p {
+    font-size: 1vw;
+    margin: 1vh 0 8vh 0;
+}
+.car-grid-options-bottom > h2 {
+    font-size: 1.8vw;
+}
+
+

@@ -1,0 +1,19 @@
+.class-car-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    min-height: 100vh;
+
+    margin-top: 12vh;
+
+
+    /* background-color: cornflowerblue; */
+}
+

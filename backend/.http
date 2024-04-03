@@ -1,0 +1,60 @@
+GET http://localhost:8000/carros
+
+###
+
+POST http://localhost:8000/carros/addCarro
+Content-Type: application/json
+
+{
+    "marca": "fiat",
+    "nome": "palio",
+    "ano": "2023",
+    "cor": "vermelho",
+    "imagem": "https://images.pexels.com/photos/19073711/pexels-photo-19073711/free-photo-of-animal-bicho-arizona-penhasco.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "finalDaPlaca":"4",
+    "combustivel":"gasolina",
+    "aceitaTroca":"sim",
+    "quilometragem":"54.000",
+    "carroceria":"hatch",
+    "potencia":"500"
+}
+
+
+# {
+#     "marca": "Volskwaguen",
+#     "nome": "fox",
+#     "ano": 2023,
+#     "cor": "vermelho",
+#     "imagem": "https://images.pexels.com/photos/19073711/pexels-photo-19073711/free-photo-of-animal-bicho-arizona-penhasco.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+# }
+
+###
+
+DELETE http://localhost:8000/carros/rmvCarro
+Content-Type: application/json
+
+{
+    "id": "fd356391-5edd-471f-aadc-f62073453e02"
+}
+
+###
+
+PATCH http://localhost:8000/carros/edtCarro
+Content-Type: application/json
+
+{
+    "id": "3cd3f50c-d340-4cd4-bc45-32be3405169a",
+    "ano": 50000,
+    "cor": "preto"
+}
+
+###
+
+GET http://localhost:8000/carros/SUV
+Content-Type: application/json
+
+###
+
+GET http://localhost:8000/carros/carCategories/
+Content-Type: application/json
+

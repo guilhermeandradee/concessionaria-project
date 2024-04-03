@@ -1,0 +1,169 @@
+.show-car-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 88vh;
+
+    background-color: #333;
+}
+
+.show-car-container .total {
+    text-align: center;
+    margin: 3% 0;
+    padding-bottom: 3%;
+
+    width: 75%;
+
+    border-bottom: 1px solid #fff;
+
+    font-weight: 400;
+}
+.add-car-container .total::after {
+
+
+    width: 200px;
+    height: 1px;
+    content: '';
+    background-color: #fff;
+}
+
+.cars-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 70%;
+}
+
+.cars-container0{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-self: center;
+    min-width: 70%;
+    width: 30%;
+    flex-direction: column;
+
+    /* border: solid 1px #ff1; */
+
+}
+
+.cars-carac-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cars-carac {
+    font-weight: 400;
+
+    padding: 0 10px;
+    margin: 10px 10px;
+
+    user-select: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+.rmv-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    cursor: pointer;
+    transition: .3s;
+}
+.rmv-btn:hover {
+    color: red;
+    transform: translateX(20%);
+}
+
+.cars-container h1 {
+    margin: 2% 0 2% 10px;
+    
+    font-weight: 400;
+}
+
+.cars-carac-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    
+    min-width: 70%;
+    max-width: 90%;
+    
+    /* border-bottom: dashed 1px #a8a8a8; */
+    padding: 0 0 20px 0;
+    margin: 0 0 3% 0;
+}
+
+/*################*/
+
+.cars-option-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    width: 100%;
+    
+    padding: 2%;
+    margin: 2vh 0;
+    position: relative;
+    
+}
+.cars-option-container-2 {
+    
+    width: 100%;
+    /* background-color: red; */
+}
+.cars-option-container-2::after {
+    position: absolute;
+    left: 0;
+    content: '';
+    background: #757575;
+    width: 100%;
+    height: 1px;
+    display: block;
+    margin: 2vh 0;
+}
+
+
+.p-container-car-option {
+    display: flex;
+    /* align-items: center; */
+    /* background-color: green; */
+    
+    width: 100%;
+}
+.cars-option-p {
+    margin: 1% 0;
+    display: flex;
+    /* align-items: center; */
+    
+    cursor: pointer;
+    
+    margin-right: 2vw;
+    
+    transition: .4s;
+}
+.cars-option-container-2 > h2 {
+    transition: .4s;
+}
+.cars-option-container-2:hover {
+    color: rgba(250, 0, 0, 0.897);
+}
+
+.animated-div-rmv-car-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
