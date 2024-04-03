@@ -13,8 +13,6 @@ import { PiCarProfileDuotone } from "react-icons/pi";
 import { PiPoliceCar } from "react-icons/pi";
 
 
-import ShowSUVCars from "./SearchForVehicleType/ShowSUVCars";
-
 const VehicleCategories = () => {
 
     const [fadeComponent, setFadeComponent] = useState(null)
