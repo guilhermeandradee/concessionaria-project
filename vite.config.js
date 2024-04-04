@@ -8,5 +8,5 @@ export default defineConfig({
       input: '/frontend/src/main.jsx'
     }
   },
-  base: '/concecionariaa-6lkl5zbbx-guilherme-andrades-projects/',
+  base: '/concecionariaa-drk7q62df-guilherme-andrades-projects.vercel.app',
 })
