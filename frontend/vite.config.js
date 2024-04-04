@@ -9,6 +9,6 @@ export default defineConfig({
       input: '/frontend/src/main.jsx'
     }
   },
-  base: 'concecionariaa-drk7q62df-guilherme-andrades-projects.vercel.app',
+  base: process.env.NODE_ENV === 'production' ? '/concecionariaa-drk7q62df-guilherme-andrades-projects/' : '/',
 })
 
